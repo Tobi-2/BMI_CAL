@@ -1,0 +1,35 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    color: #fff;
+    background-color: #383838;
+    margin: 80px 80px;
+    border: 2px solid !important;
+    border-radius: 9px;
+    height: 100%;
+    padding: 400px;
+}
+
+.container{
+    border-style: groove 2px;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+}
